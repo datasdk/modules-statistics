@@ -1,0 +1,34 @@
+{
+    "name": "nwidart/statistics",
+    "description": "Statistics module for Laravel 12 project",
+    "type": "library",
+    "require": {
+   
+        "turahe/laravel-counters": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Statistics\\": "",
+            "Modules\\Statistics\\Database\\Factories\\": "database/factories/",
+            "Modules\\Statistics\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Statistics\\Tests\\": "tests/"
+        }
+    }
+}

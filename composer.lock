@@ -1,0 +1,85 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "698a5fbcfc819ebaea33de31efff7d51",
+    "packages": [
+        {
+            "name": "turahe/laravel-counters",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/turahe/laravel-counters.git",
+                "reference": "80e37983b650cb298e312ed00a55298fb8db452d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/turahe/laravel-counters/zipball/80e37983b650cb298e312ed00a55298fb8db452d",
+                "reference": "80e37983b650cb298e312ed00a55298fb8db452d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "laravel/framework": "^10.0 || ^11.0 || ^12.0",
+                "laravel/pint": "^1.17",
+                "orchestra/testbench": "^8.0 || ^9.0 || ^10.0 || ^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "aliases": {
+                    "Counters": "Turahe\\Counters\\Facades\\Counters"
+                },
+                "laravel": {
+                    "providers": [
+                        "Turahe\\Counters\\CountersServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Turahe\\Counters\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nur Wachid",
+                    "email": "wachid@outlook.com",
+                    "homepage": "https://www.wach.id"
+                }
+            ],
+            "description": "management for counters in laravel system",
+            "homepage": "https://github.com/turahe/laravel-counters",
+            "keywords": [
+                "Decrement",
+                "counters",
+                "increment",
+                "laravel",
+                "number of visitors",
+                "turahe",
+                "visitors"
+            ],
+            "support": {
+                "issues": "https://github.com/turahe/laravel-counters/issues",
+                "source": "https://github.com/turahe/laravel-counters/tree/v1.1.1"
+            },
+            "time": "2025-07-19T17:19:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
